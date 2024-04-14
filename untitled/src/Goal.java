@@ -10,13 +10,15 @@ public class Goal{
     int currentMonth = dzis.getMonthValue();
     int currentYear = dzis.getYear();
 
+    int premia;
+
 
     public Goal(int goalYear, int goalDay, int goalMonth, String goalGoal, int goalReward){};
 
 
-    public completedGoal{
+    public void completedGoal(){
         if (goalMonth==currentMonth && goalYear == currentYear){
-
+            premia=goalReward;
         }
 
     }
